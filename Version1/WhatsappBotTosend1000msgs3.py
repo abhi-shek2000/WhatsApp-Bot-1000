@@ -4,9 +4,7 @@ import time
 
 PATH = "C:\Program Files (x86)/chromedriver.exe"   #Path of Chromedriver (Your Path may be different)
 bot = webdriver.Chrome(PATH)
-
 Name = "CodeinVeins"  #Enter Name of the person whom you want to send message
-
 bot.get('https://web.whatsapp.com/')
 
 time.sleep(10)  #wait for 10 secs
